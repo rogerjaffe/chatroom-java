@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=aIdent
+comment0.target=MessageControllerTest(java.lang.String)
+comment0.text=\n\ Instantiate\ the\ controller\n\ \n\ @param\ aNumber\ Controller\ number\ for\ identification\ in\ the\ test\ program\n
+comment1.params=messageName\ messageData
+comment1.target=void\ messageHandler(java.lang.String,\ java.lang.Object)
+comment1.text=\n\ Method\ that\ is\ fired\ when\ a\ message\ is\ sent\ that\ this\ controller\ is\ \n\ subscribed\ to.\n\ \n\ @param\ messageName\ Name\ of\ the\ message\ being\ handled\n\ @param\ messageData\ Data\ sent\ with\ the\ message\n
+numComments=2

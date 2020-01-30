@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=messageName\ messagePayload
+comment0.target=void\ messageHandler(java.lang.String,\ java.lang.Object)
+comment0.text=\n\ Fired\ when\ a\ message\ is\ sent\ through\ the\ Messages\ class\ that\ this\n\ controller\ has\ subscribed\ to.\n
+numComments=1

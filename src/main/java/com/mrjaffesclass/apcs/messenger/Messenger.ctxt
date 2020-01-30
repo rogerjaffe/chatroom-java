@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Messenger()
+comment0.text=\n\ Constructor\ for\ the\ messaging\ system\n
+comment1.params=_debug
+comment1.target=Messenger(boolean)
+comment1.text=\n\ Constructor\ for\ the\ messaging\ system\n
+comment2.params=messageName
+comment2.target=MessageObject\ findMessage(java.lang.String)
+comment2.text=\n\ Finds\ the\ controller\ list\ for\ a\ specified\ message\ name\n\ \n\ @param\ messageName\ Name\ of\ message\ we're\ looking\ for\n\ @return\ The\ MessageObject\ if\ found,\ or\ null\ otherwise\n
+comment3.params=messageName\ mh
+comment3.target=void\ subscribe(java.lang.String,\ MessageHandler)
+comment3.text=\n\ Subscribe\ an\ object\ so\ its\ notify\ method\ fires\ when\ the\ message\ is\ sent\n\ \n\ @param\ messageName\ Name\ of\ the\ message\n\ @param\ mc\ The\ object\ that\ is\ notified\ when\ messageName\ is\ published\n
+comment4.params=messageName
+comment4.target=boolean\ notify(java.lang.String)
+comment4.text=\n\ Call\ to\ send\ a\ message\ with\ no\ data\ to\ the\ controllers\ that\ have\ subscribed\n\ \n\ @param\ messageName\ Name\ of\ the\ message\ to\ send\n\ @return\ True\ if\ MessageObject\ was\ found\n
+comment5.params=messageName\ payload
+comment5.target=boolean\ notify(java.lang.String,\ java.lang.Object)
+comment5.text=\n\ Call\ to\ send\ a\ message\ to\ the\ controllers\ that\ have\ subscribed\n\ \n\ @param\ messageName\ Name\ of\ the\ message\ to\ send\n\ @param\ payload\ Data\ sent\ with\ the\ message.\ \ \n\ @return\ True\ if\ MessageObject\ was\ found\n
+comment6.params=messageName\ payload\ localDebug
+comment6.target=boolean\ notify(java.lang.String,\ java.lang.Object,\ boolean)
+comment6.text=\n\ Call\ to\ send\ a\ message\ to\ the\ controllers\ that\ have\ subscribed\n\ and\ log\ the\ message\ and\ data\ if\ present\ to\ the\ console\ when\ debug\ is\ true\n\ \n\ @param\ messageName\ Name\ of\ the\ message\ to\ send\n\ @param\ payload\ Data\ sent\ with\ the\ message.\ \ \n\ @param\ debug\ Set\ true\ for\ log\ messages\ to\ console\n\ @return\ True\ if\ MessageObject\ was\ found\n
+comment7.params=messageName\ payload
+comment7.target=void\ logMessage(java.lang.String,\ java.lang.Object)
+comment7.text=\n\ Log\ message\ and\ data\ to\ the\ console\n\ @param\ messageName\ \ \ Message\ name\n\ @param\ payload\ \ \ \ \ \ \ Payload\ data\n
+numComments=8

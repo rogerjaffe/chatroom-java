@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MessageTest()
+comment0.text=\n\ Constructor\ for\ the\ MessageTest\ class\n\ which\ will\ subscribe\ the\ three\ controllers\ to\ a\ subset\ of\ the\ \n\ three\ messages\n
+comment1.params=
+comment1.target=void\ sendMessage1()
+comment1.text=\n\ Send\ message\ 1\ to\ the\ controllers\ that\ have\ subscribed\ to\ it\n
+comment2.params=
+comment2.target=void\ sendMessage2()
+comment2.text=\n\ Send\ message\ 2\ to\ the\ controllers\ that\ have\ subscribed\ to\ it\n
+comment3.params=
+comment3.target=void\ sendMessage3()
+comment3.text=\n\ Send\ message\ 3\ to\ the\ controllers\ that\ have\ subscribed\ to\ it\n
+comment4.params=
+comment4.target=void\ sendMessage4()
+comment4.text=\n\ Send\ message\ 4\ to\ the\ controllers\ that\ have\ subscribed\ to\ it\n
+comment5.params=
+comment5.target=void\ setMessageWithData()
+comment5.text=\n\ Send\ message\ 2\ to\ the\ controllers\ that\ have\ subscribed\ to\ it\n\ along\ with\ a\ data\ packet\ of\ class\ MessageData.\n
+numComments=6

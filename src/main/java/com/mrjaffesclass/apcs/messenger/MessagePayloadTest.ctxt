@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MessagePayloadTest()
+comment0.text=\n\ Constructor\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\n\ Overrides\ the\ toString\ method\ to\ display\ the\ message\ payload\n\ \n\ @return\ Simple\ text\ message\ identifying\ this\ as\ the\ message\ payload\n
+numComments=2

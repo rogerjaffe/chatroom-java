@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=aMessageName
+comment0.target=MessageObject(java.lang.String)
+comment0.text=\n\ Constructor\n\ \n\ @param\ aMessageName\ Name\ of\ the\ message\ (duh...)\n
+comment1.params=
+comment1.target=java.lang.String\ getMessageName()
+comment1.text=\n\ Getter\ function\ for\ the\ message\ name\n\ \n\ @return\ The\ message\ name\n
+comment2.params=mc
+comment2.target=void\ addObject(MessageHandler)
+comment2.text=\n\ Subscribes\ a\ controller\ to\ this\ message\n\ \n\ Input\:\n\ \ \ MessageController\ mc\:\ \ \ \ \ \ \ \ \ \ \ \ \ \ Controller\ that\ is\ subscribing\ to\ this\ message\n
+comment3.params=data
+comment3.target=void\ notify(java.lang.Object)
+comment3.text=\n\ Fires\ the\ notify\ method\ of\ the\ controllers\ that\ subscribed\n\ \n\ @param\ Data\ that\ is\ sent\ with\ the\ message\n
+numComments=4
